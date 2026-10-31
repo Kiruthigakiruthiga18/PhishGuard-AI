@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Project directory and model path
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models" / "phishguard_model_retrained.joblib"
+MODEL_PATH = BASE_DIR / "models" / "phishguard_model_wwwfix.joblib"
 
 saved_model = None
 prediction_model = None
@@ -308,3 +308,4 @@ def scan_url():
 # --------------------------------------------------
 if __name__ == "__main__":
     app.run(debug=True)
+
