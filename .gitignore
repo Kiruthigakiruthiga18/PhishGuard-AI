@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+data/raw/*.csv
+app_backup.py
+train_model_backup.py
+models/*backup*
+models/*.joblib
+!models/phishguard_model_wwwfix.joblib
